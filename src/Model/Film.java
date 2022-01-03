@@ -1,3 +1,5 @@
+package Model;
+
 public class Film {
 
 	private String tytul;

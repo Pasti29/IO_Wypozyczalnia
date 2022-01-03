@@ -1,3 +1,8 @@
+package Model;
+
+import Model.Film;
+import Model.Klient;
+
 public class Wypozyczenie {
 
 	private Klient klient;

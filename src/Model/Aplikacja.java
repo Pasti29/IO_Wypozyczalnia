@@ -1,6 +1,9 @@
-import java.util.ArrayList;
+package Model;
 
-public class Aplikacja {
+import java.util.ArrayList;
+import java.util.IllegalFormatCodePointException;
+
+public class Aplikacja  {
 
     private ArrayList<Klient> klienci = new ArrayList<>();
     private ArrayList<Film> filmy = new ArrayList<>();
@@ -108,7 +111,7 @@ public class Aplikacja {
      * @param cena
      */
     public void przegladanieFimow(String rezyser, String gatunek, String rokProdukcji, double cena) {
-        // TODO - implement Aplikacja.przegladanieFimow
+        // TODO - implement Model.Aplikacja.przegladanieFimow
         throw new UnsupportedOperationException();
     }
 
@@ -134,7 +137,7 @@ public class Aplikacja {
         if ((film = szukajFilmu(tytul, rezyser)) != null) {
             film.setLiczbaDostepnych(film.getLiczbaDostepnych() + ilosc);
         } else {
-            System.out.print("Film nie istnieje!");
+            System.out.print("Model.Film nie istnieje!");
         }
     }
 
@@ -142,7 +145,7 @@ public class Aplikacja {
      * @param args
      */
     public void main(String[] args) {
-        // TODO - implement Aplikacja.main
+        // TODO - implement Model.Aplikacja.main
         throw new UnsupportedOperationException();
     }
 }
