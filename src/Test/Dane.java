@@ -15,4 +15,24 @@ public class Dane {
             new Film(tytul[3], rezyser[3], gatunek[3], rokProdukcji[3], liczbaDostepnych[3], cena[3]),
             new Film(tytul[4], rezyser[4], gatunek[4], rokProdukcji[4],liczbaDostepnych[4], cena[4]),
     };
+
+
+
+
+
+    public String imie[]={"Bartosz","Kajetan","Julia","Ryszard"};
+    public String nazwisko[]={"Sernicki","Rejtan","Zebra","Mickiewicz"};
+    public int rokUrodzenia[] = {1999, 2000, 1987, 2000};
+    public int nrTelefonu[]={123456789,123450987,123123123,123123321};
+    public Klient klienci[]={
+            new Klient(imie[0],nazwisko[0],rokUrodzenia[0],nrTelefonu[0]),
+            new Klient(imie[1],nazwisko[1],rokUrodzenia[1],nrTelefonu[1]),
+            new Klient(imie[2],nazwisko[2],rokUrodzenia[2],nrTelefonu[2]),
+            new Klient(imie[3],nazwisko[3],rokUrodzenia[3],nrTelefonu[3])
+    };
+
+    public Wypozyczenie wypozyczenia[]={
+            new Wypozyczenie(klienci[0],filmy[0],"2022-01-03"),
+            new Wypozyczenie(klienci[1],filmy[1],"2022-01-03")
+    };
 }
