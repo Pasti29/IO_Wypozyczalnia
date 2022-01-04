@@ -2,7 +2,8 @@ package Test;
 
 import Model.Aplikacja;
 import Model.Film;
-import org.junit.Before;
+import Model.Klient;
+import Model.Wypozyczenie;
 import org.junit.BeforeClass;
 import org.junit.Rule;
 import org.junit.experimental.categories.Category;
@@ -16,7 +17,6 @@ public class AplikacjaTest {
 
     static Dane dane;
     static Aplikacja instance;
-
 
 
     @Rule
@@ -42,6 +42,20 @@ public class AplikacjaTest {
 
     @org.junit.Test
     public void dodajKlienta() {
+        System.out.println("dodajKlienta");
+        for (int i = 0; i < 4; i++) {
+            //System.out.println(i);
+            instance.dodajKlienta(dane.imie[i], dane.nazwisko[i], dane.rokUrodzenia[i], dane.nrTelefonu[i]);
+            Klient klient = instance.szukajKlienta(dane.klienci[i].getImie(), dane.klienci[i].getNazwisko());
+            assertEquals(dane.klienci[i].getImie(), klient.getImie());
+            assertEquals(dane.klienci[i].getNazwisko(), klient.getNazwisko());
+            assertEquals(dane.klienci[i].getRokUrodzenia(), klient.getRokUrodzenia());
+            assertEquals(dane.klienci[i].getNrTelefonu(), klient.getNrTelefonu());
+        }
+        exception.expect(IllegalFormatCodePointException.class);
+        exception.expectMessage("Code = 0x0");
+        instance.dodajKlienta(dane.imie[0], dane.nazwisko[0], dane.rokUrodzenia[0], dane.nrTelefonu[0]);
+
     }
 
     @org.junit.Test
