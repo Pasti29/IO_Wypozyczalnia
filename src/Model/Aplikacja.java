@@ -55,10 +55,10 @@ public class Aplikacja  {
      * @param nrTelefonu
      */
     public void dodajKlienta(String imie, String nazwisko, int rokUrodzenia, int nrTelefonu) {
-        if (szukajKlienta(imie, nazwisko) != null) {
+        if (szukajKlienta(imie, nazwisko) == null) {
             Klient klient = new Klient(imie, nazwisko, rokUrodzenia, nrTelefonu);
             klienci.add(klient);
-        }
+        } else throw new IllegalFormatCodePointException(0);
     }
 
     /**
@@ -69,14 +69,14 @@ public class Aplikacja  {
      * @param liczbaDostepnych
      * @param cena
      */
-    public void dodajFilm(String tytul, String rezyser, String gatunek, int rokProdukcji, int liczbaDostepnych, double cena) {
-        if (szukajFilmu(tytul, rezyser) != null) {
+    public void dodajFilm(String tytul, String rezyser, String gatunek, int rokProdukcji, int liczbaDostepnych, double cena) throws IllegalFormatCodePointException{
+        if (szukajFilmu(tytul, rezyser) == null) {
             Film film = new Film(tytul, rezyser, gatunek, rokProdukcji, liczbaDostepnych, cena);
             filmy.add(film);
         }
     }
 
-    public void dodajWypozyczenie(String imie, String nazwisko, String tytul, String rezyser, String dataWypozyczenia) {
+    public void dodajWypozyczenie(String imie, String nazwisko, String tytul, String rezyser, String dataWypozyczenia) throws IllegalFormatCodePointException{
         Klient klient;
         if ((klient = szukajKlienta(imie, nazwisko)) != null) {
             Film film;
