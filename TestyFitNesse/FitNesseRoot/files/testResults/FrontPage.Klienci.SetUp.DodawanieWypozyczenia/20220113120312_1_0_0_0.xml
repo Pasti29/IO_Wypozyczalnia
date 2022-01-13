@@ -1,0 +1,188 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20211030</FitNesseVersion>
+  <rootPath>FrontPage.Klienci.SetUp.DodawanieWypozyczenia</rootPath>
+  <result>
+    <counts>
+      <right>22</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <date>2022-01-13T12:03:12+01:00</date>
+    <runTimeInMillis>26</runTimeInMillis>
+    <content>&lt;div class="collapsible closed"&gt;&lt;ul&gt;&lt;li&gt;&lt;a href='#' class='expandall'&gt;Expand&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='#' class='collapseall'&gt;Collapse&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+	&lt;p class="title"&gt;Included page: &lt;a href="FrontPage.Klienci.SetUp"&gt;.FrontPage.Klienci.SetUp&lt;/a&gt; &lt;a href="FrontPage.Klienci.SetUp?edit&amp;amp;redirectToReferer=true&amp;amp;redirectAction=" class="edit"&gt;(edit)&lt;/a&gt;&lt;/p&gt;
+	&lt;div&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td&gt;fitnesse.SetUp&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;br/&gt;&lt;div class="collapsible"&gt;&lt;ul&gt;&lt;li&gt;&lt;a href='#' class='expandall'&gt;Expand&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='#' class='collapseall'&gt;Collapse&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+	&lt;p class="title"&gt;Included page: &lt;a href="FrontPage.Klienci.SetUp.DodanieKlienta"&gt;DodanieKlienta&lt;/a&gt; &lt;a href="FrontPage.Klienci.SetUp.DodanieKlienta?edit&amp;amp;redirectToReferer=true&amp;amp;redirectAction=" class="edit"&gt;(edit)&lt;/a&gt;&lt;/p&gt;
+	&lt;div&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td colspan="6"&gt;fitnesse.TestDodajKlienta&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;imie&lt;/td&gt;
+		&lt;td&gt;nazwisko&lt;/td&gt;
+		&lt;td&gt;rokUrodzenia&lt;/td&gt;
+		&lt;td&gt;nrTelefonu&lt;/td&gt;
+		&lt;td&gt;dodajKlienta?&lt;/td&gt;
+		&lt;td&gt;liczbaKlientow?&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Karol&lt;/td&gt;
+		&lt;td&gt;Pastewski&lt;/td&gt;
+		&lt;td&gt;1999&lt;/td&gt;
+		&lt;td&gt;123456789&lt;/td&gt;
+		&lt;td class="pass"&gt;true&lt;/td&gt;
+		&lt;td class="pass"&gt;1&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Karol&lt;/td&gt;
+		&lt;td&gt;Sulima&lt;/td&gt;
+		&lt;td&gt;1997&lt;/td&gt;
+		&lt;td&gt;123456333&lt;/td&gt;
+		&lt;td class="pass"&gt;true&lt;/td&gt;
+		&lt;td class="pass"&gt;2&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Karol&lt;/td&gt;
+		&lt;td&gt;Sulima&lt;/td&gt;
+		&lt;td&gt;1997&lt;/td&gt;
+		&lt;td&gt;923456333&lt;/td&gt;
+		&lt;td class="pass"&gt;false&lt;/td&gt;
+		&lt;td class="pass"&gt;2&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Hans&lt;/td&gt;
+		&lt;td&gt;Kloss&lt;/td&gt;
+		&lt;td&gt;1989&lt;/td&gt;
+		&lt;td&gt;123456343&lt;/td&gt;
+		&lt;td class="pass"&gt;true&lt;/td&gt;
+		&lt;td class="pass"&gt;3&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Maciej&lt;/td&gt;
+		&lt;td&gt;Sernicki&lt;/td&gt;
+		&lt;td&gt;1988&lt;/td&gt;
+		&lt;td&gt;127412356&lt;/td&gt;
+		&lt;td class="pass"&gt;true&lt;/td&gt;
+		&lt;td class="pass"&gt;4&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Karol&lt;/td&gt;
+		&lt;td&gt;Pastewski&lt;/td&gt;
+		&lt;td&gt;1999&lt;/td&gt;
+		&lt;td&gt;123456789&lt;/td&gt;
+		&lt;td class="pass"&gt;false&lt;/td&gt;
+		&lt;td class="pass"&gt;4&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="collapsible"&gt;&lt;ul&gt;&lt;li&gt;&lt;a href='#' class='expandall'&gt;Expand&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='#' class='collapseall'&gt;Collapse&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+	&lt;p class="title"&gt;Included page: &lt;a href="FrontPage.Klienci.SetUp.DodawanieFilmu"&gt;DodawanieFilmu&lt;/a&gt; &lt;a href="FrontPage.Klienci.SetUp.DodawanieFilmu?edit&amp;amp;redirectToReferer=true&amp;amp;redirectAction=" class="edit"&gt;(edit)&lt;/a&gt;&lt;/p&gt;
+	&lt;div&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td colspan="8"&gt;fitnesse.TestDodajFilm&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;tytul&lt;/td&gt;
+		&lt;td&gt;rezyser&lt;/td&gt;
+		&lt;td&gt;gatunek&lt;/td&gt;
+		&lt;td&gt;rokProdukcji&lt;/td&gt;
+		&lt;td&gt;liczbaDostepnych&lt;/td&gt;
+		&lt;td&gt;cena&lt;/td&gt;
+		&lt;td&gt;dodajFilm?&lt;/td&gt;
+		&lt;td&gt;liczbaFilmow?&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Rambo&lt;/td&gt;
+		&lt;td&gt;Andrzej Wajda&lt;/td&gt;
+		&lt;td&gt;akcja&lt;/td&gt;
+		&lt;td&gt;1999&lt;/td&gt;
+		&lt;td&gt;10&lt;/td&gt;
+		&lt;td&gt;20.99&lt;/td&gt;
+		&lt;td class="pass"&gt;true&lt;/td&gt;
+		&lt;td class="pass"&gt;1&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Rambo&lt;/td&gt;
+		&lt;td&gt;Andrzej Wajda&lt;/td&gt;
+		&lt;td&gt;akcja&lt;/td&gt;
+		&lt;td&gt;1999&lt;/td&gt;
+		&lt;td&gt;10&lt;/td&gt;
+		&lt;td&gt;20.99&lt;/td&gt;
+		&lt;td class="pass"&gt;false&lt;/td&gt;
+		&lt;td class="pass"&gt;1&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Rambo 2&lt;/td&gt;
+		&lt;td&gt;Andrzej Wajda&lt;/td&gt;
+		&lt;td&gt;akcja&lt;/td&gt;
+		&lt;td&gt;2000&lt;/td&gt;
+		&lt;td&gt;112&lt;/td&gt;
+		&lt;td&gt;20.99&lt;/td&gt;
+		&lt;td class="pass"&gt;true&lt;/td&gt;
+		&lt;td class="pass"&gt;2&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Rambo3&lt;/td&gt;
+		&lt;td&gt;Andrzej Wajda&lt;/td&gt;
+		&lt;td&gt;akcja&lt;/td&gt;
+		&lt;td&gt;2001&lt;/td&gt;
+		&lt;td&gt;0&lt;/td&gt;
+		&lt;td&gt;20.99&lt;/td&gt;
+		&lt;td class="pass"&gt;true&lt;/td&gt;
+		&lt;td class="pass"&gt;3&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td colspan="7"&gt;fitnesse.TestDodajWypozyczenie&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;imie&lt;/td&gt;
+		&lt;td&gt;nazwisko&lt;/td&gt;
+		&lt;td&gt;tytul&lt;/td&gt;
+		&lt;td&gt;rezyser&lt;/td&gt;
+		&lt;td&gt;dataWypozyczenia&lt;/td&gt;
+		&lt;td&gt;dodajWypozyczenie?&lt;/td&gt;
+		&lt;td&gt;liczbaWypozyczen?&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Karol&lt;/td&gt;
+		&lt;td&gt;Pastewski&lt;/td&gt;
+		&lt;td&gt;Rambo&lt;/td&gt;
+		&lt;td&gt;Andrzej Wajda&lt;/td&gt;
+		&lt;td&gt;19102021&lt;/td&gt;
+		&lt;td class="pass"&gt;true&lt;/td&gt;
+		&lt;td class="pass"&gt;1&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+</content>
+    <relativePageName>DodawanieWypozyczenia</relativePageName>
+  </result>
+  <executionLog>
+    <testSystem>fit:fit.FitServer</testSystem>
+    <command>java -cp D:\Projects\IDEA\Wypozyczalnia\out\production\Wypozyczalnia;D:\Projects\IDEA\Wypozyczalnia\TestyFitNesse\fitnesse-standalone.jar fit.FitServer LEGIO 61342 3863</command>
+    <exitCode>0</exitCode>
+    <stdOut></stdOut>
+    <stdErr></stdErr>
+  </executionLog>
+  <finalCounts>
+    <right>1</right>
+    <wrong>0</wrong>
+    <ignores>0</ignores>
+    <exceptions>0</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>389</totalRunTimeInMillis>
+</testResults>
+

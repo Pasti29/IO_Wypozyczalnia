@@ -76,18 +76,19 @@ public class Aplikacja  {
         } else throw new IllegalFormatCodePointException(0);
     }
 
-    public void dodajWypozyczenie(String imie, String nazwisko, String tytul, String rezyser, String dataWypozyczenia) throws IllegalFormatCodePointException{
+    public void dodajWypozyczenie(String imie, String nazwisko, String tytul, String rezyser, String dataWypozyczenia) {
         Klient klient;
         if ((klient = szukajKlienta(imie, nazwisko)) != null) {
+            if(!mozeWypozyczyc(klient)) throw new IllegalFormatCodePointException(0);
             Film film;
             if ((film = szukajFilmu(tytul, rezyser)) != null) {
                 if ((szukajWypozyczenia(klient, film, dataWypozyczenia)) == null) {
                     Wypozyczenie wypozyczenie = new Wypozyczenie(klient, film, dataWypozyczenia);
                     aktualizacjaWypozyczen(wypozyczenie, true);
                     aktualizacjaLiczbyFilmow(tytul, rezyser, -1);
-                }
-            }
-        }
+                } else throw new IllegalFormatCodePointException(0);
+            } else throw new IllegalFormatCodePointException(0);
+        } else throw new IllegalFormatCodePointException(0);
     }
 
     public void przyjmijZwrot(String imie, String nazwisko, String tytul, String rezyser, String dataWypozyczenia) {
@@ -141,8 +142,17 @@ public class Aplikacja  {
         }
     }
 
+    public boolean mozeWypozyczyc(Klient klient) {
+        for (Wypozyczenie wypozyczenie: wypozyczenia) {
+            if (wypozyczenie.getKlient() == klient)
+                return false;
+        }
+        return true;
+    }
+
     public ArrayList<Klient> getKlienci() { return klienci;}
     public ArrayList<Film> getFilmy() { return filmy;}
+    public ArrayList<Wypozyczenie> getWypozyczenia() { return wypozyczenia;}
 
     /**
      * @param args

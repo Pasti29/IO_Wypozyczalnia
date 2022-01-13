@@ -1,0 +1,96 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20211030</FitNesseVersion>
+  <rootPath>FrontPage.Klienci.SetUp.DodawanieFilmu</rootPath>
+  <result>
+    <counts>
+      <right>8</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <date>2022-01-13T11:43:15+01:00</date>
+    <runTimeInMillis>11</runTimeInMillis>
+    <content>&lt;div class="collapsible closed"&gt;&lt;ul&gt;&lt;li&gt;&lt;a href='#' class='expandall'&gt;Expand&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='#' class='collapseall'&gt;Collapse&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+	&lt;p class="title"&gt;Included page: &lt;a href="FrontPage.Klienci.SetUp"&gt;.FrontPage.Klienci.SetUp&lt;/a&gt; &lt;a href="FrontPage.Klienci.SetUp?edit&amp;amp;redirectToReferer=true&amp;amp;redirectAction=" class="edit"&gt;(edit)&lt;/a&gt;&lt;/p&gt;
+	&lt;div&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td&gt;fitnesse.SetUp&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td colspan="8"&gt;fitnesse.TestDodajFilm&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;tytul&lt;/td&gt;
+		&lt;td&gt;rezyser&lt;/td&gt;
+		&lt;td&gt;gatunek&lt;/td&gt;
+		&lt;td&gt;rokProdukcji&lt;/td&gt;
+		&lt;td&gt;liczbaDostepnych&lt;/td&gt;
+		&lt;td&gt;cena&lt;/td&gt;
+		&lt;td&gt;dodajFilm?&lt;/td&gt;
+		&lt;td&gt;liczbaFilmow?&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Rambo&lt;/td&gt;
+		&lt;td&gt;Andrzej Wajda&lt;/td&gt;
+		&lt;td&gt;akcja&lt;/td&gt;
+		&lt;td&gt;1999&lt;/td&gt;
+		&lt;td&gt;10&lt;/td&gt;
+		&lt;td&gt;20.99&lt;/td&gt;
+		&lt;td class="pass"&gt;true&lt;/td&gt;
+		&lt;td class="pass"&gt;1&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Rambo&lt;/td&gt;
+		&lt;td&gt;Andrzej Wajda&lt;/td&gt;
+		&lt;td&gt;akcja&lt;/td&gt;
+		&lt;td&gt;1999&lt;/td&gt;
+		&lt;td&gt;10&lt;/td&gt;
+		&lt;td&gt;20.99&lt;/td&gt;
+		&lt;td class="pass"&gt;false&lt;/td&gt;
+		&lt;td class="pass"&gt;1&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Rambo 2&lt;/td&gt;
+		&lt;td&gt;Andrzej Wajda&lt;/td&gt;
+		&lt;td&gt;akcja&lt;/td&gt;
+		&lt;td&gt;2000&lt;/td&gt;
+		&lt;td&gt;112&lt;/td&gt;
+		&lt;td&gt;20.99&lt;/td&gt;
+		&lt;td class="pass"&gt;true&lt;/td&gt;
+		&lt;td class="pass"&gt;2&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Rambo3&lt;/td&gt;
+		&lt;td&gt;Andrzej Wajda&lt;/td&gt;
+		&lt;td&gt;akcja&lt;/td&gt;
+		&lt;td&gt;2001&lt;/td&gt;
+		&lt;td&gt;0&lt;/td&gt;
+		&lt;td&gt;20.99&lt;/td&gt;
+		&lt;td class="pass"&gt;true&lt;/td&gt;
+		&lt;td class="pass"&gt;3&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+</content>
+    <relativePageName>DodawanieFilmu</relativePageName>
+  </result>
+  <executionLog>
+    <testSystem>fit:fit.FitServer</testSystem>
+    <command>java -cp D:\Projects\IDEA\Wypozyczalnia\out\production\Wypozyczalnia;D:\Projects\IDEA\Wypozyczalnia\TestyFitNesse\fitnesse-standalone.jar fit.FitServer LEGIO 60414 3863</command>
+    <exitCode>0</exitCode>
+    <stdOut></stdOut>
+    <stdErr></stdErr>
+  </executionLog>
+  <finalCounts>
+    <right>1</right>
+    <wrong>0</wrong>
+    <ignores>0</ignores>
+    <exceptions>0</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>498</totalRunTimeInMillis>
+</testResults>
+

@@ -1,3 +1,4 @@
+|FrontPage.Klienci.SetUp.DodawanieWypozyczenia||12:04:54 czw., sty 13, 2022|
 |FrontPage.Klienci.SetUp.DodawanieFilmu||11:39:29 czw., sty 13, 2022|
 |FrontPage.Klienci.SetUp.DodanieKlienta||11:31:23 czw., sty 13, 2022|
 |FrontPage.Klienci||10:52:28 czw., sty 13, 2022|

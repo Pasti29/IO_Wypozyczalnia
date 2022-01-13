@@ -16,7 +16,7 @@ public class TestDodajFilm extends ColumnFixture{
             SetUp.aplikacja.dodajFilm(tytul, rezyser, gatunek, rokProdukcji, liczbaDostepnych, cena);
             int s2 = liczbaFilmow();
             return s1 != s2;
-        } catch (IllegalFormatCodePointException|NumberFormatException e ) {
+        } catch (IllegalFormatCodePointException e ) {
             return false;
         }
 

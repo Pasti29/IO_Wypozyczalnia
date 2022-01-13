@@ -1,0 +1,11 @@
+---
+Test
+---
+!include DodanieKlienta
+!include DodawanieFilmu
+
+!|fitnesse.TestDodajWypozyczenie|
+|imie	|nazwisko	|tytul	|rezyser		|dataWypozyczenia	|dodajWypozyczenie?	|liczbaWypozyczen?	|
+|Karol	|Pastewski	|Rambo	|Andrzej Wajda	|19-10-2021			|true				|1					|
+|Hans	|Kloss		|Rambo	|Andrzej Wajda	|19-10-2021			|true				|2					|
+|Karol	|Pastewski	|Rambo3	|Andrzej Wajda	|19-10-2021			|false				|2					|
