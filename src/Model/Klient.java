@@ -14,10 +14,15 @@ public class Klient {
 	 * @param rokUrodzenia
 	 * @param nrTelefonu
 	 */
-	public Klient(String imie, String nazwisko, int rokUrodzenia, int nrTelefonu) {
+	public Klient(String imie, String nazwisko, int rokUrodzenia, int nrTelefonu) throws NumberFormatException {
 		this.imie = imie;
 		this.nazwisko = nazwisko;
-		this.rokUrodzenia = rokUrodzenia;
+		try {
+			this.rokUrodzenia = rokUrodzenia;
+		} catch (NumberFormatException e) {
+			return;
+		}
+
 		this.nrTelefonu = nrTelefonu;
 	}
 

@@ -1,0 +1,11 @@
+---
+Test
+---
+!|fitnesse.TestDodajKlienta|
+|imie	|nazwisko	|rokUrodzenia	|nrTelefonu	|dodajKlienta?	|liczbaKlientow?	|
+|Karol	|Pastewski	|1999			|123456789	|true			|1					|
+|Karol	|Sulima		|1997			|123456333	|true			|2					|
+|Karol	|Sulima		|1997			|923456333	|false			|2					|
+|Hans	|Kloss		|1989			|123456343	|true			|3					|
+|Maciej	|Sernicki	|1988			|127412356	|true			|4					|
+|Karol	|Pastewski	|1999			|123456789	|false			|4					|

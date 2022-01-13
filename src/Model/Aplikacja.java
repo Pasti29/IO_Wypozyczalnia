@@ -69,11 +69,11 @@ public class Aplikacja  {
      * @param liczbaDostepnych
      * @param cena
      */
-    public void dodajFilm(String tytul, String rezyser, String gatunek, int rokProdukcji, int liczbaDostepnych, double cena) throws IllegalFormatCodePointException{
+    public void dodajFilm(String tytul, String rezyser, String gatunek, int rokProdukcji, int liczbaDostepnych, double cena) {
         if (szukajFilmu(tytul, rezyser) == null) {
             Film film = new Film(tytul, rezyser, gatunek, rokProdukcji, liczbaDostepnych, cena);
             filmy.add(film);
-        }
+        } else throw new IllegalFormatCodePointException(0);
     }
 
     public void dodajWypozyczenie(String imie, String nazwisko, String tytul, String rezyser, String dataWypozyczenia) throws IllegalFormatCodePointException{
@@ -140,6 +140,9 @@ public class Aplikacja  {
             System.out.print("Model.Film nie istnieje!");
         }
     }
+
+    public ArrayList<Klient> getKlienci() { return klienci;}
+    public ArrayList<Film> getFilmy() { return filmy;}
 
     /**
      * @param args
