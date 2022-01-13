@@ -2,6 +2,7 @@
   <library name="fitnesse-standalone">
     <CLASSES>
       <root url="jar://$PROJECT_DIR$/TestyFitNesse/fitnesse-standalone.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jmockit-1.49.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
